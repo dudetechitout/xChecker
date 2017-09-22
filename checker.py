@@ -12,22 +12,8 @@ import time
 
 global count
 global total
-total = 0
 
-def check_alert(d):
-	global count 
-	count += 1
-	if(count >= 3):
-		d.quit()
-	else:
-		try:
-			a = d.switch_to_alert()
-			print(a.text)
-			return a.text
-		except:
-			time.sleep(5)
-			print("Slept")
-			check_alert(d)
+total = 0
 
 def launch(c):
 		try:
